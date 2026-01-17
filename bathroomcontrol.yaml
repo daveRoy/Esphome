@@ -2,6 +2,7 @@ esphome:
   name: kc868-a16
 
 esp32:
+  board: esp32dev  # <--- Add this line
   variant: esp32
   framework:
     type: esp-idf
